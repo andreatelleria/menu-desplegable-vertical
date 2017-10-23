@@ -1,51 +1,52 @@
+/*Utilizamos el selector de etiqueta body para establecer el tipo y tamaño de letra de todo nuestro texto*/
 body {
   font-family: sans-serif;
   font-size: 20px;
 }
-
+/*Utilizamos el selector de etiqueta nav para establecer su ancho*/
 nav {
     width: 250px;
 }
-
+/*Utilizamos el selector de etiqueta ul para establecer el estilo de lista, margen, relleno y espaciado vertical del texto*/
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
   line-height: 30px;
 }
-
+/*Utilizamos el selector de etiqueta li para establecer su color de fondo*/
 li {
     background: #f5f5f0;
 }
-
+/*Utilizamos el selector de etiqueta a para establecer su display, decoración de texto de nuestros links, así como su color y relleno*/
 a {
   display: block;
   text-decoration: none;
   color: #000;
   padding: 10px;
 }
-
+/*Utilizamos la pseudo-clase a:hover para establecer un color de fondo al pasar el cursor sobre nuestros links*/
 a:hover {
   background: #e0e0d1;
 }
-
+/*Utilizamos la pseudo-clase a:ctive para establecer un color de fondo y color de texto al dar click a nuestros links*/
 a:active {
   background: #333;
   color: #fff;
 }
-
+/*Utilizamos un selector descendente (de etiqueta li y la pseudo-clase li:first-child) para establecer el color de fondo solo del primer elemento hijo li de nuestra lista*/
 ul li:first-child {
   background: #f9a91a;
 }
-
+/*Utilizamos un selector descendente (de etiqueta li, la pseudo-clase li:first-child y de etiqueta a) para establecer el color de texto del link, contenido en el primer elemento hijo li de nuestra lista*/
 ul li:first-child a {
   color: #fff;
 }
-
+/*Utilizamos un selector descendente (de etiqueta li, la pseudo-clase li:first-child y la pseudo-clase a:hover) para establecer el color de texto al pasar el cursor por el link, contenido en el primer elemento hijo li de nuestra lista*/
 ul li:first-child a:hover {
   color: #000;
 }
-
+/*Utilizamos un selector descendente (de etiqueta li, la pseudo-clase li:first-child y la pseudo-clase a:active) para establecer el color de texto al dar click en el link, contenido en el primer elemento hijo li de nuestra lista*/
 ul li:first-child a:active {
   color: #fff;
 }
